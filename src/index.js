@@ -1,7 +1,7 @@
 'use strict'
 
-const path = require('path')
+const histologySlideDirect = require('./core/histology-slide-direct')
 
-module.exports = {
-  
+exports = module.exports = {
+  histologySlideDirect: histologySlideDirect
 }
